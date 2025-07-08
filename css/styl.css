@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.header1 {
+    background-color: black;
+}
+
+.header2 {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    gap: 30px;
+}
+
+.li1 {
+    list-style: none;
+    text-decoration: none;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+#hero {
+    background-image: url("../imags/1\ \(1\).png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 90px;
+    padding-bottom: 200px;
+}
+
+.hero-title {
+    font-size: 110px;
+    color: white;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+.hero-subtitle {
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-top: 30px;
+    line-height: 40px;
+}
+
+.but {
+    width: 180px;
+    height: 52px;
+    background-color: #F57520;
+    color: white;
+    margin-top: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+#velik {
+    background-image: url("../imags/6.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 533px;
+    background-attachment: fixed;
+}
+
+.card {
+    background-color: #34312D;
+    background-image: url("../imags/7.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 400px;
+    border-radius: 10px;
+    height: 334px;
+    box-shadow: 20px 20px 20px 20px rgb(53, 52, 52);
+}
+
+.card-title {
+    font-size: 24px;
+    color: white;
+    font-family: sans-serif;
+    padding-top: 32px;
+    margin-left: 20px;
+}
+
+.card-subtitle {
+    line-height: 30px;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.mini-card-title {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: white;
+}
+
+.card2 {
+    background-color: #F57520;
+    background-image: url("../imags/7.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 400px;
+    border-radius: 10px;
+    height: 334px;
+    box-shadow: 20px 20px 20px 20px rgb(53, 52, 52);
+
+}
+
+.cardlar {
+    display: flex;
+    gap: 80px;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
